@@ -1,0 +1,6 @@
+name: UltimateGenerators
+version: '${project.version}'
+main: cn.rmc.ultimategenerators.UltimateGenerators
+api-version: 1.16
+depend:
+  - Slimefun
