@@ -253,8 +253,8 @@ public class UGImplementor {
     public void implementSingleGenerators() {
         register(
                 new EndlessGenerator(UGCategories.SINGLE_GENERATOR, sis(UGItems.ENDLESS_GENERATOR, "ENDLESS_GENERATOR"),
-                        UGRecipeType.NULL, Utils.buildRecipe()){{setHidden(true);
-                    Slimefun.getItemCfg().setValue("ENDLESS_GENERATOR.hide-in-guide",true);}},
+                        UGRecipeType.NULL, Utils.buildRecipe()){{setHidden(false);
+                    Slimefun.getItemCfg().setValue("ENDLESS_GENERATOR.hide-in-guide",false);}},
                 new BGenerator(UGCategories.SINGLE_GENERATOR, sis(UGItems.NETHER_STAR_GENERATOR, "NETHER_STAR_GENERATOR"),
                         RecipeType.ENHANCED_CRAFTING_TABLE,
                         Utils.buildRecipe(SlimefunItems.REINFORCED_ALLOY_INGOT, SlimefunItems.REINFORCED_PLATE,
@@ -314,7 +314,7 @@ public class UGImplementor {
 
                     @Override
                     protected void registerDefaultFuelTypes() {
-                        registerFuel(new MachineFuel(30, UGItems.DRAGON_BREATH_GENERATOR));
+                        registerFuel(new MachineFuel(30, new ItemStack(Material.DRAGON_BREATH)));
                     }
                 }.setCapacity(256).setEnergyProduction(9),
                 new BGenerator(UGCategories.SINGLE_GENERATOR, sis(UGItems.REACTION_GENERATOR, "REACTION_GENERATOR"),
