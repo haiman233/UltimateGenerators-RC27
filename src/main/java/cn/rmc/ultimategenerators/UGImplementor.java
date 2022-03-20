@@ -223,11 +223,11 @@ public class UGImplementor {
                                 UGItems.GAMMA_ELECTRICITY_STORAGE, UGItems.GAMMA_ELECTRICITY_STORAGE,
                                 UGItems.GAMMA_ELECTRICITY_STORAGE }),
                 new Capacitor(UGCategories.ELECTRICITY_STORAGE,20971520 ,sis(UGItems.KAPA_ELECTRICITY_STORAGE,
-                        "KAPA_ELECTRICITY_STORAGE"), UGRecipeType.NULL, new ItemStack[] {}){{setHidden(true);
-                Slimefun.getItemCfg().setValue("KAPA_ELECTRICITY_STORAGE.hide-in-guide",true);}},
+                        "KAPA_ELECTRICITY_STORAGE"), UGRecipeType.NULL, new ItemStack[] {}){{setHidden(false);
+                Slimefun.getItemCfg().setValue("KAPA_ELECTRICITY_STORAGE.hide-in-guide",false);}},
                 new Capacitor(UGCategories.ELECTRICITY_STORAGE,167772160, sis(UGItems.PHI_ELECTRICITY_STORAGE, "PHI_ELECTRICITY_STORAGE"),
-                        UGRecipeType.NULL, new ItemStack[] {}){{setHidden(true);
-                    Slimefun.getItemCfg().setValue("PHI_ELECTRICITY_STORAGE.hide-in-guide",true);}},
+                        UGRecipeType.NULL, new ItemStack[] {}){{setHidden(false);
+                    Slimefun.getItemCfg().setValue("PHI_ELECTRICITY_STORAGE.hide-in-guide",false);}},
                 new BContainer(UGCategories.MACHINES, sis(UGItems.HEAVY_WATER_REFINING_MACHINE, "HEAVY_WATER_REFINING_MACHINE"),
                         RecipeType.ENHANCED_CRAFTING_TABLE,
                         new ItemStack[] { HGLASS, null, HGLASS, COIL, SlimefunItems.ELECTRIC_DUST_WASHER_2, COIL, BCIRCUIT,
