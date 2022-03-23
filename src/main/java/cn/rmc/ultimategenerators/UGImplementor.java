@@ -74,10 +74,10 @@ public class UGImplementor {
                         new RecipeType(new NamespacedKey(UltimateGenerators.getImplement(),"BIOMASS_EXTRACTION"),
                                 new CustomItemStack(Material.LIME_STAINED_GLASS, "&a生物质萃取机&r",
                                 "&a在生物质萃取机里提取一些作物中的生物质")),Utils.buildRecipe()),
-                new SlimefunItem(UGCategories.TECH_MISC, sis(UGItems.BIOFUEL_BUCKET, "BIOFUEL_BUCKET"), new RecipeType(
-                        new NamespacedKey(UltimateGenerators.getImplement(),"refinery"),
-                        new CustomItemStack(Material.PISTON, "&2生物燃油精炼器&r", "&a在生物燃油精炼器里将生物质精炼为生物燃油")),
-                        Utils.buildRecipe()),
+                new SlimefunItem(UGCategories.TECH_MISC, sis(UGItems.BIOFUEL_BUCKET, "BIOFUEL_BUCKET"), 
+                        new RecipeType(new NamespacedKey(UltimateGenerators.getImplement(),"BIOFUEL_REFINERY"),
+                                new CustomItemStack(Material.PISTON, "&2生物燃油精炼器&r", 
+                                "&a在生物燃油精炼器里将生物质精炼为生物燃油")),Utils.buildRecipe()),
 //                new SlimefunItem(UGCategories.TECH_MISC,sis(UGItems.MAGNESIUM_SALT, "MAGNESIUM_SALT"), RecipeType.PRESSURE_CHAMBER,
 //                        Utils.buildRecipe(SlimefunItems.MAGNESIUM_DUST, SlimefunItems.MAGNESIUM_DUST,
 //                                Boolean.parseBoolean(DefaultConfig.getConfig("magnesium-salt-require-zinc-dust"))
