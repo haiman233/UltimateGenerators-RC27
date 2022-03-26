@@ -366,7 +366,7 @@ public class UGImplementor {
                         registerFuel(new MachineFuel(1, mat(Material.OAK_WOOD)));
                         registerFuel(new MachineFuel(1, mat(Material.SPRUCE_WOOD)));
                     }
-                },
+                }.setCapacity(256).setEnergyProduction(8),
                 new BGenerator(UGCategories.SINGLE_GENERATOR, sis(UGItems.BIO_REACTOR, "ENLARGED_BIO_REACTOR"),
                         RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{null, UGItems.SOLID_STORAGE_EXPANSION, null, ALUI,
                         SlimefunItems.BIO_REACTOR, ALUI, null, UGItems.SOLID_STORAGE_EXPANSION, null}) {
