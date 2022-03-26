@@ -109,10 +109,10 @@ public class UGImplementor {
                 new SlimefunItem(UGCategories.TECH_MISC, sis(UGItems.THERMAL_NEUTRON_REACTOR_COOLANT_CELL,
                         "THERMAL_NEUTRON_REACTOR_COOLANT_CELL"), RecipeType.ENHANCED_CRAFTING_TABLE,
                         new ItemStack[] { null, null, UGItems.HEAVY_WATER_BUCKET, null, SlimefunItems.REACTOR_COOLANT_CELL,
-                                null, UGItems.HEAVY_WATER_BUCKET, null, null })
+                                null, UGItems.HEAVY_WATER_BUCKET, null, null }),
 //                new SlimefunItem(UGCategories.TECH_MISC, sis(UGItems.RAINBOW_ALLOY, "RAINBOW_ALLOY"), RecipeType.SMELTERY,
-//                        Utils.buildRecipe(SlimefunItems.REDSTONE_ALLOY, SlimefunItems.CORINTHIAN_BRONZE_INGOT,
-//                                SlimefunItems.COBALT_INGOT, SlimefunItems.MAGIC_LUMP_3, SlimefunItems.RAINBOW_RUNE)),
+//                        new ItemStack[] {SlimefunItems.REDSTONE_ALLOY, SlimefunItems.CORINTHIAN_BRONZE_INGOT,
+//                                SlimefunItems.COBALT_INGOT, SlimefunItems.MAGIC_LUMP_3, SlimefunItems.RAINBOW_RUNE })
 //
 
 
