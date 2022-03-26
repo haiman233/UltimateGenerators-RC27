@@ -243,8 +243,9 @@ public class UGImplementor {
                         registerRecipe(120, new ItemStack[] { mat(Material.WATER_BUCKET) },
                                 new ItemStack[] { UGItems.HEAVY_WATER_BUCKET });
                     }
-                }.setCapacity(256).setEnergyConsumption(9)
+                }.setCapacity(256).setEnergyConsumption(9).setProcessingSpeed(300)
 
+            
                 );
 
 
